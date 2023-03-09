@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.color-fondo{
+    background-image: url(portada2.jpg);
+    
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 2000px;
+    
+}
+
+.titulo h1{
+
+    position: relative;
+    left: 450px;
+    font-size: 60px;
+    top: 60px;
+    color: #0080FF;
+    font-weight: 600;
+    width: 500px;
+}
+
+
+.square {
+    height:  600px;
+    width: 1000px;
+    background-color: #232528;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    margin-bottom: 20px;
+    opacity: 1;
+    box-shadow: 10px 10px 50px black;
+    overflow: hidden;
+    max-width: 1000;
+    z-index: 1;
+    
+    
+  }
+
+  nav{
+    text-align: right;
+    padding: 30px 50px 0px 0px;
+}
+nav > a{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #282b2e;
+    padding: 5px;
+}
+nav > a:hover{
+    text-decoration: none;
+    color: white;
+}
+nav > a:hover{
+    animation-name: navii;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes navii {
+    0%{
+        background-color: #282b2e;
+    }
+
+    100% {
+        
+        background-color: #0080FF;
+    }
+}
+
+.contenedor-footer{
+    float: left;
+    width: 28%;
+    padding-left: 305px;
+    position: relative;
+    top: 40px;
+    
+    
+    
+    
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #0080FF;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content-foo p{
+    color: white;
+}
+
+.linea{
+    height: 130px;
+    width: 100%;
+    background-color: #232528;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    box-shadow: 10px 10px 30px black;
+    margin-bottom: 10px;
+    opacity: 0.9;
+
+    
+}
+
+.botones{
+    position: relative;
+    top: 150px;
+    left: 453px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #232528;
+    width: 166.5px;
+    float: left;
+    text-align: center;
+    opacity: 1;
+    transition: background 0.5s,color 0.5s;
+    
+    
+}
+.botones:hover{
+    background-color: black;
+}
+
+.colorbotones{
+    color: white;
+    background-color: #212225;
+    
+    
+}
+
+.colorbotones:hover{
+    text-decoration: none;
+    color: white;
+    
+    
+
+}
+
+.camaras{
+    width: 600px;
+    margin: auto;
+    position: relative;
+    bottom: 450px;
+    right: 0px;
+    font-size: 50px;
+    color: #0080FF;
+    
+    text-align: center;
+    z-index: 2;
+    
+}
+
+.imagenescamara{
+    float: left;
+    background-color: #27292c;
+    
+    width: 93%;
+    height: 450px;
+    z-index: 2;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+    padding-bottom: 300px;
+    
+    
+    
+    
+    
+    
+}
+
+
+.imagenescamara img{
+
+    width: 140px;    
+    height: 140px;
+    align-items: center;
+    display: flex;
+    margin-left: 80px;
+    
+    
+    
+}
+
+.imagenescamara p{
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: normal;
+    font-family: 'Electrolize', sans-serif;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 55px;
+    
+    
+    margin-top: 20px;
+}
+
+
+.imagenescamara h1{
+
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.imagenescamara h1:hover{
+    color: #0080FF;
+}
+
+@media screen and (max-width:1445px){
+
+    .botones{
+        position: relative;
+        left: 221px;
+    }
+
+    .titulo h1{
+        position: relative;
+        left: 220px;
+        top: 100px;
+        
+        
+    }
+}
+
+@media screen and (max-width:1367px){
+
+    .botones{
+        position: relative;
+        left: 133px;
+        margin: initial;
+        width: 166.5px;
+
+        
+    }
+
+    .titulo h1{
+        position: relative;
+        left: 133px;
+        top: 100px;
+        
+        
+    }
+
+    .contenedor-footer{
+
+        position: relative;
+        width: 30%;
+        right: 120px;
+    }
+    
+}
+
+@media screen and (max-width:1026px){
+
+    .botones{
+        position: relative;
+        left: 12.5px;
+    }
+   
+    .titulo h1{
+        position: relative;
+        left: 10px;
+        top: 100px;
+        
+    }
+}
+
+@media screen and (max-width:430px){
+
+    .titulo h1{
+        position: relative;
+        left: 40px;
+        top: 100px;
+        
+        width: 250px;
+        font-size: 50px;
+    }
+    .square{
+        width: 350px;
+        margin-left: 36px;
+        height: 600px;
+    }
+    .color-fondo{
+        background-size: 8000px;
+    }
+
+    .imagenescamara{
+        width: 85%;
+        margin-left: 5px;
+        height: 450px;
+        
+        
+        
+    }
+    .imagenescamara h1 {
+        font-size: 12px;
+       
+    }
+    
+    
+
+    .camaras{
+        position: relative;
+        bottom: 460px;
+        right: 0px;
+        font-size: 35px;
+        width: 150px;
+    }
+
+    .botones{
+        position: relative;
+        left: 37px;
+        margin: initial;
+        width: 175px;
+
+        
+    }
+
+    nav{
+        position: relative;
+        left: 330px;
+        top: 40px;
+        width: 10px;
+    }
+    .contenedor-footer .content-foo {
+        position: relative;
+        right: 45px;
+        width: 150px;
+        bottom: 40px;
+        
+        
+    }
+    .linea{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:376px){
+
+    .titulo h1{
+        position: relative;
+        left: 40px;
+        top: 100px;
+        
+        width: 250px;
+        font-size: 50px;
+    }
+    .square{
+        width: 350px;
+        margin-left: 36px;
+        height: 600px;
+    }
+    .color-fondo{
+        background-size: 8000px;
+    }
+
+    .imagenescamara{
+        width: 85%;
+        margin-left: 5px;
+        height: 450px;
+        
+        
+        
+    }
+    .imagenescamara h1 {
+        font-size: 12px;
+       
+    }
+    .camaras{
+        position: relative;
+        bottom: 460px;
+        left: 20px;
+        width: 120px;
+        font-size: 30px;
+    }
+    .botones{
+        position: relative;
+        left: 36px;
+        margin: initial;
+        width: 175px;
+
+        
+    }
+    nav{
+        position: relative;
+        left: 330px;
+        top: 40px;
+        width: 10px;
+    }
+    .contenedor-footer .content-foo {
+        position: relative;
+        right: 45px;
+        width: 150px;
+        bottom: 40px;
+        
+        
+    }
+    .linea{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:321px){
+
+    .titulo h1{
+        position: relative;
+        left: 20px;
+        top: 100px;
+        
+        width: 250px;
+        font-size: 50px;
+    }
+    .square{
+        width: 296px;
+        margin-left: 12px;
+        height: 600px;
+    }
+    .color-fondo{
+        background-size: 8000px;
+    }
+
+    .imagenescamara{
+        width: 90%;
+        margin-left: 1px;
+        margin-right: 300px;
+        
+        
+        
+    }
+    .imagenescamara h1 {
+        font-size: 12px;
+       
+    }
+    .camaras{
+        position: relative;
+        bottom: 450px;
+        left: 0px;
+        font-size: 30px;
+        width: 120px;
+    }
+    .botones{
+        position: relative;
+        left: 13px;
+        margin: initial;
+        width: 147px;
+
+        
+    }
+    nav{
+        position: relative;
+        left: 230px;
+        top: 40px;
+        width: 10px;
+    }
+    .contenedor-footer .content-foo {
+        position: relative;
+        right: 210px;
+        width: 150px;
+        bottom: 40px;
+        
+        
+    }
+    .linea{
+        opacity: 0;
+    }
+}
+
